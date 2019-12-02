@@ -1,0 +1,23 @@
+{
+  "capabilities":
+      [
+        {
+          "browserName": "iPhone X",
+          "version":"11.2",
+          "maxInstances": 1,
+          "platform" : "IOS"
+        }
+      ],
+  "configuration":
+  {
+    "cleanUpCycle":2000,
+    "timeout":30000,
+    "proxy":"org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url":"http://10.2.6.138:4733/wd/hub",
+    "maxSession": 1,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "172.28.0.83"
+  }
+}

@@ -1,0 +1,684 @@
+[
+  {
+    "description": "Login for existing user",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Login User Valid",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginPage"
+      }
+    ],
+    "uri": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/features_login_and_registration/login.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "ADDC User Login",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@LoginPage"
+          },
+          {
+            "line": 5,
+            "name": "@loginUser"
+          }
+        ],
+        "id": "login-user-valid;addc-user-login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 13153
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/support/hooks.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User should see the Homescreen Page",
+            "result": {
+              "status": "passed",
+              "duration": 7660
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User should see headingDescription as headingDesc on Homescreen Page",
+            "result": {
+              "status": "passed",
+              "duration": 164
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see subHeading as subHeading on Homescreen Page",
+            "result": {
+              "status": "passed",
+              "duration": 158
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see subHeadingDescription as subHeadingDesc on Homescreen Page",
+            "result": {
+              "status": "passed",
+              "duration": 151
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User must see changeLanguageButton on Homescreen Page",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see changeLanguageLabel as changeLanguageLabel on Homescreen Page",
+            "result": {
+              "status": "passed",
+              "duration": 140
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User must see existingUserButton on Homescreen Page",
+            "result": {
+              "status": "passed",
+              "duration": 92
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User must see newUserButton on Homescreen Page",
+            "result": {
+              "status": "passed",
+              "duration": 86
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User should be able to click existingUserButton on Homescreen Page",
+            "result": {
+              "status": "passed",
+              "duration": 5072
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:235"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User should see the Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 321
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:240"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User must see userNametxtbox on Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 83
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User must see passwordtxtbox on Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 76
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User must see loginButton on Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 89
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see forgotPasswordlnk as forgotPasswordlnktxt on Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 2
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User enters UserId as User Id",
+            "result": {
+              "status": "passed",
+              "duration": 2102
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:254"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User enters Password as Password",
+            "result": {
+              "status": "passed",
+              "duration": 2587
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:259"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User should be able to click on the Login button on Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 5066
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User should see the My Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 30191
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/my_Account.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see payNowButton as payNowButtonText on My Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 214
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User must see outStandingBalanceSection on My Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 104
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see outStandingBalanceHeading as outStandingBalanceHeadingtxt on My Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 202
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see outStandingBalanceCurrency as outStandingBalanceCurrencytxt on My Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 196
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see outStandingBalanceValue as outStandingBalanceValuetxt on My Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 153
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User must see menuButton on My Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 143
+            },
+            "line": 30,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User should be able to click on the Menu button on My Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 80
+            },
+            "line": 31,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/my_Account.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User should see the Menu",
+            "result": {
+              "status": "passed",
+              "duration": 2179
+            },
+            "line": 32,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_menu/menu_items.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see myProfileMenuButton as myProfileMenuButtontxt on Menu Screen",
+            "result": {
+              "status": "passed",
+              "duration": 2973
+            },
+            "line": 33,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User should be able to click on the My Profile Menu button on the Menu",
+            "result": {
+              "status": "passed",
+              "duration": 1245
+            },
+            "line": 34,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_menu/menu_items.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User should see the My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 20198
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/my_Profile.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see editButton as editButtontxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 198
+            },
+            "line": 36,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see customerIdHeader as customerIdHeadertxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 166
+            },
+            "line": 37,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see myProfileDesc as myProfileDesctxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 155
+            },
+            "line": 38,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see fullNamelbl as fullNamelbltxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 175
+            },
+            "line": 39,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see fullNameValue as fullNameValuetxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 176
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see customerIdlbl as customerIdlbltxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 200
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see customerIdValue as customerIdValuetxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 188
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see userNamelbl as userNamelbltxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 158
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see userNameValue as UserId on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 173
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see personalDetailslbl as personalDetailslbltxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 170
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see userEmaillbl as userEmaillbltxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 148
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see userEmailValue as userEmailValuetxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 145
+            },
+            "line": 47,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see phoneNumberlbl as phoneNumberlbltxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 157
+            },
+            "line": 48,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see phoneNumberlblDesc as phoneNumberlblDesctxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 196
+            },
+            "line": 49,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see phoneNumberValue as phoneNumberValuetxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 193
+            },
+            "line": 50,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User must see preferredLangSection on My Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 51,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see preferredLanglbl as preferredLanglbltxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 149
+            },
+            "line": 52,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see preferredLangValue as preferredLangValuetxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 149
+            },
+            "line": 53,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see changePasswordButton as changePasswordButtontxt on My Profile Page",
+            "result": {
+              "status": "passed",
+              "duration": 156
+            },
+            "line": 54,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 659
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/support/hooks.js:26"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "login-user-valid"
+  }
+]

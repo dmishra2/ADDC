@@ -1,0 +1,191 @@
+{
+    "loginButton": "//XCUIElementTypeButton[@name='Login']",
+  
+   
+    "emailField": "Email",
+   
+  
+    "recoverPasswordEmailFeild": "Email",
+    "recoverPassowordMessage": "Forgot Password message",
+  
+    "setupPinAlert": "//XCUIElementTypeAlert[@name='Why not set up a PIN?']",
+    "setUpPinDots": "(//XCUIElementTypeOther[@name='Setup Pin'])[2]",
+    "confirmSetUpPinDots": "(//XCUIElementTypeOther[@name='Please enter that PIN again'])[2]/XCUIElementTypeOther/XCUIElementTypeOther",
+   
+   
+    "openMenuId": "(//XCUIElementTypeOther[contains(@name,'Menu')])[6]",
+    "confirmLogout": "Yes",
+    
+    "hideKeyboardDoneBtn": "//XCUIElementTypeButton[@name='Done']",
+    
+    "DrawerItem1": "About me",
+    "DrawerItem2": "British Gas Rewards",
+    "DrawerItem3": "Security settings",
+    "DrawerItem4": "Customer feedback",
+    "DrawerItem5": "Help & Support",
+    "DrawerItem6": "Legal",
+    "DrawerItem7": "Emergency Contact",
+    "DrawerItem8": "Logout",
+    "DrawerItem9": "Hive active heating",
+    "DrawerItem10": "Appointments",
+    "DrawerItem11": "Book a Repair",
+    "DrawerItem12": "Home Services",
+    
+    "bottomNavigationtext1": "//XCUIElementTypeOther[@name='Usage']",
+    "bottomNavigationtext2": "//XCUIElementTypeOther[@name='Billing']",
+    
+    "viewTargetCard": "//XCUIElementTypeButton[@name='budget']",
+    "gasAmountSpent": "//XCUIElementTypeButton[@name='Gas Value']",
+    "elecAmountLeft": "//XCUIElementTypeButton[@name='Electricity Value']",
+    "editTargetPageTitle": "(//XCUIElementTypeStaticText[@name='Page Title'])[2]",
+    "recentSpent": "//XCUIElementTypeStaticText[@name='RECENT SPENDING']",
+  
+    "categoryButton": "//XCUIElementTypeButton[@name='Categories']",
+    "categoriesPageTitleValue": "(//XCUIElementTypeOther[@name='Insights'])[2]",
+    "insightHubIosPageTitle": "//XCUIElementTypeStaticText[@name='Overview']",
+    "usageButton": "//XCUIElementTypeOther[@name='Usage']",
+    "onTrackUser": "You were on track",
+    "overTheTargetUser": "You missed your mark",
+    "noTargetUser": "//XCUIElementTypeStaticText[@name='No Target set for this month']",
+    "underSpentTarget": "//XCUIElementTypeStaticText[@name='£17.97 underspent']",
+    "dataNotAvailablePop": "(//XCUIElementTypeOther[@name=''])[2]",
+    "changeTargetButton": "//XCUIElementTypeButton[@name='Change Target']",
+   
+   
+ 
+   
+    
+    
+    
+    "logoutButton": "(//XCUIElementTypeOther[@name='Logout'])[2]",
+    
+  
+   
+  
+    "myBillBtn": "//XCUIElementTypeOther[@name='Billing']",
+    "energyAccount": "Energy",
+   
+    
+    "userLoginWithPinDots": "//XCUIElementTypeOther[@name='Login with PIN']/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther",
+    "masterHomeScreenBottomCard": "//XCUIElementTypeButton",
+    "analysisCardHubScreen": "//XCUIElementTypeButton[@name='history']",
+ 
+    "categoriesCardHubScreen": "//XCUIElementTypeButton[@name='categories']",
+    "gasAccountEneryAccountPage": "//XCUIElementTypeOther[@name='Gas']",
+    
+    
+   
+    
+    "applyFilter": "//XCUIElementTypeButton[@name='Billing & Payment Apply Filters Button']",
+    
+    "headerBack": "header-back",
+    "noThanks": "No thanks",
+   
+    "billingAndPaymentPageTitle": "(//XCUIElementTypeOther[@name='Billing & payments'])[2]",
+    "seemyDirectDebitLink": "(//XCUIElementTypeButton[@name='More insights button'])[2]",
+    "directDebitMessage": "//XCUIElementTypeStaticText[@name=' AsavariableDirectDebitcustomertheamountyouarebilledwillbeautomaticallytakenfromyourbankaccount'] ",
+    
+    "fromDate": "From",
+    "toDate": "To",
+    "doneButton": "(//XCUIElementTypeOther[@name='From 09 Dec 17'])[3]",
+    "payYourBalance": "//XCUIElementTypeButton[@name='Make a payment']",
+    "continueButton": "Continue Button",
+    "selectCardPageTitle": "(//XCUIElementTypeOther[@name='Select a card'])[2]",
+    "selectWhichCard": "Which card would you like to pay with?",
+    "gasAccountNumberEnergyAccountPage": "//XCUIElementTypeOther[@name='Gas']//..//XCUIElementTypeOther[contains(@name,'Account')]",
+    "electricityAccountNumberEnergyAccountPage": "//XCUIElementTypeOther[@name='Electricity']//..//XCUIElementTypeOther[contains(@name,'Account')]",
+    "energyAccountNumberEnergyAccountPage": "//XCUIElementTypeOther[@name='Energy']//..//XCUIElementTypeOther[contains(@name,'Account number')]",
+    "electricityBill": "Electricity bill",
+    "billSummaryScreenAccountNumber": "//XCUIElementTypeStaticText[contains(@name,'Account Number')]",
+    "billAmount": "//XCUIElementTypeStaticText[contains(@name,'Bill amount')]",
+    "targetSettingElectricity": "Electricity Value",
+    "electricityAccountNumber": "//XCUIElementTypeOther[@name=' electricity Icon']/..//XCUIElementTypeOther[contains(@name,'Account number')]",
+    "jointAccount": "Energy",
+    "jointBill": "//XCUIElementTypeOther[@name='Energy bill']",
+    "insight": "Insights card button",
+    "jointAccountNumber": "//XCUIElementTypeOther[@name=' dual Icon']/..//XCUIElementTypeOther[contains(@name,'Account number')]",
+    "gasAccountNumber": "//XCUIElementTypeOther[@name='Account number 850046676674']",
+   
+    "onlineAccountOption": "(//XCUIElementTypeOther[@name='I have an online account'])[1]",
+    
+    "seeMyDirectDebitMessgaeLink": "(//XCUIElementTypeButton[@name='More insights button'])[2]",
+    
+    
+  
+   
+    "verifyBulbImageInBillHubScreen": "(//XCUIElementTypeOther[@name='Account type icon electricity'])[3]",
+    "energyAccountNumber": "//XCUIElementTypeOther[@name='Account number 851001224460']",
+    
+    
+  
+    
+    
+    
+    "accountBalanceSign": "//XCUIElementTypeOther[@name='+£']",
+ 
+    
+    
+    
+    
+    
+   
+    
+    "editAmount": "(//XCUIElementTypeOther[@name='Edit amount']/..//XCUIElementTypeOther[contains(@name,'£ 0.')])[3]",
+    "payNowButton": "Make a payment button",
+ 
+  
+  
+   
+    "electricityBillTab": "(//XCUIElementTypeOther[@name='bulb'])[5]",
+    "switchNowButton": "//XCUIElementTypeOther[@name='Switch now']",
+    "tcCustomerAddress": "(//XCUIElementTypeOther[@name='Container'])[6]//XCUIElementTypeOther//XCUIElementTypeStaticText[2]",
+    "overviewCardTitle": "Overview",
+    "insightHubUsageSinceLastBill": "//*[contains(@label,'Since your last bill')]",
+    "overviewCard": "//XCUIElementTypeButton[@name='overview']",
+    "historyCardTitle": "History",
+    "historyCard": "//XCUIElementTypeButton[@name='history']",
+    "insightsCardTitle": "Insights",
+    "insightsCard": "//XCUIElementTypeButton[@name='insights']",
+    "overviewCardMonth":"",
+    "historyCardMonth":"",
+    "insightsCardMonth":"",
+    "setReminderButton": "//XCUIElementTypeButton[@name='Set a reminder']",
+    "okButtonToAccessCalendar": "ok",
+    "chooseANewtariffText": "//XCUIElementTypeApplication[@name='British Gas']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]",
+    "yourTargetGasIcon": "//XCUIElementTypeOther[contains(@name='Gas £]/XCUIElementTypeImage",
+    "yourTargetElectricityIcon": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[5]/android.widget.ImageView",
+    "yourTargetGasText": "Gas",
+    "yourTargetElectricityText": "(//XCUIElementTypeStaticText[@name='Electricity'])[2]",
+    "yourTargetDaysLeftCard": "(//XCUIElementTypeOther[contains(@name='Days Left Until the end of your target')])[1]",
+    "yourTargetDaysLeftText": "//*[contains(@text,'Days Left')]",
+    "yourTargetUnderspentText": "Underspent",
+    "yourTargetHistoryCard":"//XCUIElementTypeButton[contains(@name='History')]",
+    "yourTargetHistoryCardButtonContent": "",
+    "yourTargetHistoryButtonIcon": "",
+    "yourTargetHistoryButtonArrow": "",
+    "yourTargetInsightsCard":"//XCUIElementTypeButton[contains(@name='Insights')]",
+    "yourTargetInsightsCardButtonTitle": "",
+    "yourTargetInsightsCardButtonContent": "",
+    "yourTargetInsightsButtonIcon": "",
+    "yourTargetInsightsButtonArrow": "",
+    "setTargetTitle": "(//XCUIElementTypeOther[@name='Set your target'])[2]",
+    "setTargetSubTitle": "How much do you want to spend on energy this month?",
+    "setTargetScroll": "//XCUIElementTypeOther[contains(@name='£')]",
+    "setTargetRecentUse": "Recent use",
+    "setTargetCurrentMonthText": "",
+    "setTargetPreviousMonthText": "",
+    "setTargetCurrentMonthValue": "",
+    "setTargetPreviousMonthValue": "",
+    "saveTargetButton": "//XCUIElementTypeButton[@name='Save Target']",
+    "removeTargetButton": "//XCUIElementTypeButton[@name='Remove Target']",
+    "yesRemoveTargetButton": "Yes, remove",
+    "doneRemoveTargetButton": "//XCUIElementTypeButton[@name='Done']",
+    "cancelRemoveTargetButton": "//XCUIElementTypeButton[@name='Cancel']",
+    "historyTitle": "(//XCUIElementTypeOther[@name='History'])[2]",
+    "insightsTitle": "(//XCUIElementTypeOther[@name='Insights'])[2]",
+
+    "addNewCardButton" : "//XCUIElementTypeButton[@name='+ Add new card']",
+    "dueAmountPaymentAmountScreen" : "//XCUIElementTypeOther[@name='Total due: ']/..//XCUIElementTypeOther[contains(@name,'£')]",
+    "payWithNewCard" : "Make a payment button"
+
+}

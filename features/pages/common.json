@@ -1,0 +1,61 @@
+{
+    "loginBtn" : "Login to your account",
+    
+  
+   
+    
+    
+  
+  
+    "logoutButton" : "Logout",
+    "loginFromMenu" : "Login",
+    "securitySettings" : "Security settings",
+    
+    "myProfileMainNavigation" : "About me",
+    "startButtonMyProfilePage" : "Start",
+    "questionOptionHomeProfile" : "Select",
+    
+    "myUsageButton" : "Usage",
+    "analysis" :  "Analysis",
+    "analysisLandingPage" : "The type of fuel",
+    
+    
+    "highestBarYAxisPrice" : "barAxisDescription1",
+    "xAxisBarValue" : "barValue1",
+    "firstBarGraph" : "bar0",
+    "durationNav" : "Selected month",
+    "rightToggle" : "Right Toggle",
+    "poundToggle" : "Pound Toggle",
+    "kwhConsumption" : "Energy Toggle",
+    "categoryLandingPage" : "entertainment category name ",
+    "insightHubPageTitle" : "Overview",
+  
+    "myBillBtn" : "Billing",
+    "billingAndPaymentPageTitle" : "Billing & Payments",
+    "bottomNavigationHomebutton" : "Home",
+   
+    "budgetScreenCombinedSpend" : "Combined Spent",
+  
+    "viewTargetCard" : "overview",
+    
+   
+  
+    "submitMeterRead" : "Submit Meter Read",
+   
+    
+    
+    
+   
+
+    "overviewTargetUsageLeft":"",
+    "yourTargetSelectedMonth": "Selected month",
+    "yourTargetNotSet":"Target Amount Left",
+    "yourTargetUsageSpent": "Combined Spent",
+    "yourTargetGasValue": "Gas Value",
+    "yourTargetElectricityValue": "Electricity Value",
+    "yourTargetHistoryCardButton": "History card button",
+    "yourTargetInsightsCardButton": "Insights card button",
+
+    "addNewCardButton" : "+ Add new card",
+    "makeAPaymentNewCardSelectACardScreen" : "Make a payment"
+}

@@ -1,0 +1,297 @@
+{
+ 
+
+
+  
+ 
+  "CancelFingerPrint": "button2",
+  "DrawerItem1": "//android.view.ViewGroup[@content-desc='About me']/android.view.ViewGroup[1]/android.widget.TextView",
+  "DrawerItem2": "//android.view.ViewGroup[@content-desc='British Gas Rewards']/android.view.ViewGroup[1]/android.widget.TextView",
+  "DrawerItem3": "//android.view.ViewGroup[@content-desc='Security settings']/android.view.ViewGroup[1]/android.widget.TextView",
+  "DrawerItem4": "//android.view.ViewGroup[@content-desc='Customer feedback']/android.view.ViewGroup[1]/android.widget.TextView",
+  "DrawerItem5": "//android.view.ViewGroup[@content-desc='Help & Support']/android.view.ViewGroup[1]/android.widget.TextView",
+  "DrawerItem6": "//android.view.ViewGroup[@content-desc='Legal']/android.view.ViewGroup[1]/android.widget.TextView",
+  "DrawerItem7": "//android.view.ViewGroup[@content-desc='Emergency Contact']/android.widget.TextView",
+  "DrawerItem8": "//android.view.ViewGroup[@content-desc='Logout']/android.widget.TextView",
+  "DrawerItem9": "//android.view.ViewGroup[@content-desc='Hive active heating']/android.view.ViewGroup[1]/android.widget.TextView",
+  "DrawerItem10": "//android.view.ViewGroup[@content-desc='Appointments']/android.view.ViewGroup[1]/android.widget.TextView",
+  "DrawerItem11": "//android.view.ViewGroup[@content-desc='Book a Repair']/android.view.ViewGroup[1]/android.widget.TextView",
+  "DrawerItem12": "//android.view.ViewGroup[@content-desc='Home Services']/android.view.ViewGroup[1]/android.widget.TextView",
+
+  
+ 
+ 
+ 
+ 
+  
+  "confirmLogout": "android:id/button1",
+
+ 
+  
+  
+  "SecuritySettingPageTitle": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView",
+  
+ 
+ 
+ 
+  "bottomNavigationimage1": "//android.view.ViewGroup[@content-desc='Usage']/android.widget.ImageView",
+  "bottomNavigationtext1": "//android.view.ViewGroup[@content-desc='Usage']/android.widget.TextView",
+  "bottomNavigationimage2": "//android.view.ViewGroup[@content-desc='Billing']/android.widget.ImageView",
+  "bottomNavigationtext2": "//android.view.ViewGroup[@content-desc='Billing']/android.widget.TextView",
+  "customerTitleAndName": "//android.support.v4.widget.DrawerLayout/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView",
+  "customerAddressDetails": "//android.support.v4.widget.DrawerLayout/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView",
+  "myProfilePageTitle": "//android.support.v4.widget.DrawerLayout/android.view.ViewGroup//android.widget.TextView[contains(@text,'My Profile')]",
+ 
+  "gasAccountEneryAccountPage": "Gas Icon",
+  "electricityAccountEneryAccountPage": "//*[contains(@text,'Electricity')]",
+  "eneryAccountPageTitle": "Your Energy Accounts",
+  "welcomeMessageEneryAccountPage": "Youhavemultipleenergyaccountsselecttheaccountyouwanttoview",
+ 
+  "electricity": "//android.widget.Button[@content-desc='Electricity Tab Item Button']/android.widget.TextView",
+  "jointAccountText": "//android.widget.TextView[@content-desc=' Joint AccountBalance']",
+  "electricityAccountSection": "Energy Account type electricity",
+  "gasAccountSection": "Energy Account type gas",
+  "gasAccountPageTitle": "//android.widget.TextView[@content-desc='Account Type gas']",
+  "electricityAccountPageTitle": "//android.widget.TextView[@content-desc='Account Type electricity']",
+  "accountNumberEnergyAccountPage": "//android.widget.TextView[contains(@content-desc,'Accno')]",
+  "fromDateRange": "//android.widget.Button[@content-desc='Billing & Payment Date Picker Button']/android.view.View",
+  "toDateRange": "//android.widget.TextView[@content-desc=' To']",
+  "payYourBalance": "Make an extra payment",
+  "chooseYourPaymentCard": "//android.view.View[@content-desc='Container']/android.widget.TextView",
+  "selectCard": "//*[contains(@text,'Select Card')]",
+  "last4CardDigit": "//android.widget.TextView[@content-desc='' ]",
+  "nextButton": "//android.widget.Button[@content-desc='Next']/android.widget.TextView",
+  "prepaymentScreenPageTitle": "//android.widget.TextView[@content-desc='Page Title']",
+  "addNewCard": "Add new card",
+  "paymentDetailsPageTitle": "//android.widget.TextView[@content-desc='Page Title']",
+  "youHaveNoSavedCard": "//android.widget.TextView[@content-desc=' Youhavenosavedcards']",
+  "chargesBillAndPayment": "//android.widget.TextView[@content-desc=' Charges']",
+  "gasIcon": "(//android.view.View[@content-desc='Gas Icon'])[2]",
+  "paymentBill&payment": "//android.widget.TextView[@content-desc=' Payment']",
+  "statementDate": "//android.widget.TextView[@content-desc=' StatementDate ']",
+  "statementPeriod": "//android.widget.TextView[@content-desc=' StatementPeriod']",
+  "paymentConfirmations": "//android.widget.TextView[@content-desc='Page Title']",
+  "billSummaryPageTitle": "//android.widget.TextView[@content-desc='Page Title']",
+  "costOfBillPeriod": "//*[contains(@content-desc,'Bill amount')]",
+  "dateRange": "//*[@contains @text, 'Statement Period']",
+  "billStatus": "Account Type Actual",
+  "stateDueDate": "//*[contains(@content-desc,'Statement date')]",
+  "suspendedAccountErrorMessage": "android:id/message",
+  "serviceType": "//*[contains(@content-desc,'Joint')]",
+  "accountBalance": "//*[contains(@content-desc,'Account balance')]",
+  "informationIcon": "//*[contains(@content-desc,'i')]",
+  "jointAccountMessage": "//android.widget.TextView[@content-desc=' ThisisyourAccountSummarywhichincludesallpaymentsmadeandallbillscreated']",
+  "energy_Page_Title": "Your Energy Accounts",
+  "gasTab": "//android.widget.Button[@content-desc='Gas Tab Item Button']/android.widget.TextView",
+  "electricityTab": "//android.widget.Button[@content-desc='Electricity Tab Item Button,]/android.widget.TextView",
+  "showBudgetSpendSVG": "//android.view.ViewGroup[@content-desc='ShowBudgetSpend Svg']/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView[2]",
+ 
+  "billingAndPaymentLink": "//*[contains(@text,'')]",
+
+  "weekSpent": "//android.widget.HorizontalScrollView[@content-desc='Select a period of time']/android.view.ViewGroup/android.view.ViewGroup[1]",
+  "yearSpent": "//android.widget.HorizontalScrollView[@content-desc='Select a period of time']/android.view.ViewGroup/android.view.ViewGroup[3]",
+  "monthSpent": "//android.widget.HorizontalScrollView[@content-desc='Select a period of time']/android.view.ViewGroup/android.view.ViewGroup[2]",
+  "charges": "(//android.view.View[@content-desc='Gas Icon'])[3]",
+ 
+  "paymentHistoryId": "//*[contains(@text,'Billing & Payments')]",
+  "noPaymentHistoryText": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.View/android.view.View/android.view.View/android.view.View[5]/android.view.View/android.widget.TextView",
+ 
+  "setUpDirectDebitBtn": "//*[contains(@content-desc,'SetupDirectDebit')]",
+  
+  "myUsage": "//android.view.ViewGroup[@content-desc='Usage']",
+  "targetCard": "//*[contains(@text,'View your spending and set a target')]",
+  "yourUsageText": "//android.widget.TextView[@content-desc='Page Title']",
+  "circlePicker": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]",
+  "currentSpentCirclePicker": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[4]/android.view.ViewGroup/android.widget.TextView[2]",
+  "editTargetPageTitle": "//*[contains(@text,'Edit Target')]",
+  "recentSpentEditTargetPage": "//*[contains(@text,'RECENT SPENDING')]",
+  "amountLeftEditTargetValue": "//*[contains(@text,'Left')]",
+  "lastReceiveData": "//*[contains(@text,'Last update')]",
+  "gasAmountSpent": "//android.widget.Button[@content-desc='Gas Value']",
+  "electricityAmountSpent": "//android.widget.Button[@content-desc='Electricity Value']",
+  "toggleBackButton": "//android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.Button/android.view.ViewGroup",
+  "jointAccountTap": "//*[contains(@text,'Joint Account')]",
+  "jointAccountPageTitle": "//android.widget.TextView[@content-desc='Account Type dual']",
+  
+  "analysisCardHubScreen": "history",
+  "backToInsightHubScreen": "//android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.Button",
+  
+  "billHistoryScreenBillAmount": "(//android.widget.TextView[contains(@text,'£') and contains(@content-desc,' ')])[2]",
+  "billAmount": "//android.widget.TextView[contains(@content-desc,'Bill amount')]",
+  "billSummaryScreenAccountNumber": "//android.widget.TextView[contains(@content-desc,'Account Number')]",
+  "electricityBill": "Electricity bill",
+  "targetSettingGas": "//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[5]",
+  "targetSettingElectricity": "//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[6]",
+  
+  "logoutButton": "//android.support.v4.widget.DrawerLayout/android.view.ViewGroup[2]/android.view.ViewGroup[3]/android.view.ViewGroup[2]",
+  "billingAndPaymentPageTitle": "//android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[@text='Billing & payments']",
+  "selectPaymentMethod": "//*[contains(@text,'Payment options')]",
+  "payWithCard": "//android.view.ViewGroup[@content-desc='Container']/android.view.ViewGroup[4]/android.view.ViewGroup",
+  "selectCardPageTitle": "//*[contains(@text,'Select a card')]",
+  "previuoslySavedCards": "//android.view.ViewGroup[@content-desc='Container']/android.widget.TextView",
+ 
+  "editAmount": "//android.view.ViewGroup[@content-desc='Edit amount']/android.widget.TextView",
+  "enterAmountFields": "(//android.widget.TextView[@content-desc=' '])[2]",
+  "payButton": "Pay",
+  "proceedButton": "Proceed",
+  "payWithGoogleButton": "//android.view.ViewGroup[@content-desc='Make a payment button']/android.view.ViewGroup/android.view.ViewGroup",
+  "dataNotAvailable": "//*[contains(@text,'')]",
+  
+ 
+  
+  
+  "drawerTitle": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup[2]/android.widget.TextView[1]",
+  "drawerAddress": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup[2]/android.widget.TextView[2]",
+  
+  "myUsageButton": "//*[contains(@content-desc,'Usage')]",
+  "myBillBtn": "//android.view.ViewGroup[@content-desc='Billing']",
+ 
+  
+ 
+  "applyFilters": "Apply filter",
+  "toggleBackToBillPage": "//android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.Button/android.view.ViewGroup/android.widget.ImageView",
+  "masterHomeScreenBottomCard": "//android.widget.Button",
+  
+  "categoriesCardHubScreen": "categories",
+  
+ 
+  
+  
+ 
+  "jointAccount": " Energy",
+  "continueToPaymentButton": "(//android.widget.Button[@content-desc='Continue'])[2]",
+  "energyAccount": "//*[contains(@text,'')]",
+  "selectWhichCard": "//*[contains(@text,'Which card would you like to pay with?')]",
+  
+  "energyAccountPageTitle": "//*[contains(@text,'Energy Account')]",
+  "seemyDirectDebit": "//*[contains(@text,'See my Direct Debit')]",
+  "billingAndPaymentsPageTitle": "//*[contains(@text,'Billing & payments')]",
+  "accountNumbers": "//*[contains(@text,'Account number:')]",
+  "actualElectricityUsage": "//*[contains(@text,'Actual electricity usage')]",
+  "amountPaidDuringAPeriod": "//*[contains(@text,'Amount paid during period')]",
+  "paymentDueDateText": "//*[contains(@text,'Payment was due on:')]",
+  "balanceAmount": "(//android.widget.TextView[@content-desc=' '])[2]",
+  "yesContinuePopUP": "//*[contains(@text,'Yes, continue')]",
+  "payWithCardPageText": "//*[contains(@text,'Pay with card')]",
+  "continueToSelectACardPage": "(//android.widget.Button[@content-desc='Continue'])[2]",
+  "onlineAccountOption": "//android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]",
+ 
+  
+  
+ 
+  
+  "energyCard": "//android.widget.TextView[@content-desc=' Energy']",
+  "billHubContextualScreenAccNo": "//android.widget.TextView[@content-desc=' Accno ']/../..//android.widget.TextView[@content-desc=' Accno ']",
+  "billHubContextElectricityAccNO": "//*[contains(@content-desc,'Accno')]",
+  "billHubContextGasAccNO": "//android.widget.TextView[@content-desc=' Accno ']",
+  "billHubContextEnergyAccNO": "//android.widget.TextView[@content-desc=' Accno ']",
+  "billHubInformationIcon": "//android.view.ViewGroup[@content-desc='More information icon']/android.view.ViewGroup/android.widget.TextView",
+  "accountBalanceSign": "//android.view.ViewGroup[contains(@content-desc,'£')]//android.widget.TextView",
+  "youAreInCreditAccountMessage": "//android.widget.TextView[@content-desc=' Youreincredit']",
+  "youAreInDeditAccountMessage": "//android.widget.TextView[@content-desc=' Youreindebit']",
+  "cancelInformationIcon": "//*[contains(@text,'')]",
+  "paymentOptionsPageTitle": "//android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView",
+  "paymentOptionContinueButton": "//android.view.ViewGroup[@content-desc='Mobile payment icon']/..//android.widget.Button[@content-desc='Continue']",
+  "paymentWithCardContinueButton": "//android.view.ViewGroup[@content-desc='Pay with card']/..//android.widget.Button[@content-desc='Continue']",
+  "selectACardPageTitle": "//android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView",
+  "makeAPaymentSelectACardScreen": "Make A Payment",
+  "aboutyouraccountbalance": "//android.widget.TextView[@content-desc=' Aboutyouraccountbalance']",
+  "seeMyDirectDebitMessgae": "//android.widget.TextView[@content-desc=' SeemyDirectDebit']",
+  "variableDDTest": "//android.widget.TextView[@content-desc=' AsavariableDirectDebitcustomertheamountyouarebilledwillbeautomaticallytakenfromyourbankaccount']",
+  "makeAnExtraPaymentButton" : "Make an extra payment",
+  "fixedDDMessage":"//android.widget.TextView[@content-desc=' Yournextfixedpaymentof']",
+  "paymentAmountPageTitle" : "//android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView",
+  "amountEditOption" : "//android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[5]/android.view.ViewGroup",
+  "payNowButton" : "Pay now",
+  "verifyFlameBulbImageInBillHubScreen" : "Flame-bulb Icon",
+  "makeAPaymentNewCardSelectACardScreen" : "Make a payment",
+  "payWithNewCard" : "Pay with new card",
+
+  
+  "makePaymentDetailsScreen" : "Make Payment",
+  
+  
+
+ 
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+ 
+ 
+  
+  
+ 
+  
+  "switchNowButton": "//android.widget.Button[@content-desc='Switch now']",
+  
+
+  "tcCustomerAddress": "//android.view.ViewGroup[@content-desc='Container']/android.view.View",
+  "overviewCardTitle": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.TextView",
+  "overviewCardMonth": "//android.widget.Button[@content-desc='overview']/android.view.ViewGroup[2]/android.widget.TextView[1]",
+  "insightHubUsageSinceLastBill": "//*[contains(@text,'Since your last bill')]",
+  "overviewCard": "//android.widget.Button[@content-desc='overview']/android.view.ViewGroup[1]/android.view.View",
+  "historyCard": "//android.widget.Button[@content-desc='history']/android.view.ViewGroup[1]/android.view.View",
+  "historyCardTitle": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.TextView",
+  "historyCardMonth": "//android.widget.Button[@content-desc='history']/android.view.ViewGroup[2]/android.widget.TextView[1]",
+  "insightsCardTitle": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.TextView",
+  "insightsCard":"//android.widget.Button[@content-desc='insights']/android.view.ViewGroup[1]/android.view.View",
+  "insightsCardMonth":"//android.widget.Button[@content-desc='insights']/android.view.ViewGroup[2]/android.widget.TextView[1]",
+  "setReminderButton": "setReminderButton",
+  "okButtonToAccessCalendar": "okButtonToAccessCalendar",
+  "chooseANewtariffText": "//*[contains(@text,'Choose tarriff')]",
+  "tcEditProfile": "(//android.widget.Button[@content-desc='Edit profile'])[2]",
+  "tcLearnMoreBtn": "//android.widget.Button[@content-desc='Learn more about this purple button']/android.widget.TextView",
+  "tcChangeYourTariffPageTitle": "//*[contains(@text,'Change your tariff')]",
+  "tcSelectionScreenBtn": "//android.view.ViewGroup[@content-desc='Container']/android.widget.TextView[2]",
+  "tcListOfTariff": "//android.view.ViewGroup[@content-desc='Container']/android.view.ViewGroup[2]/android.widget.TextView",
+  "tcStandardTariffCard": "//android.view.ViewGroup[@content-desc='Container']/android.view.ViewGroup[2]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[1]",
+  "tcHomeEnergyTariffCard": "//android.view.ViewGroup[@content-desc='Container']/android.view.ViewGroup[2]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView[1]",
+  "tcTariffSelectionScreenBackBtn": "//android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.Button/android.view.ViewGroup/android.widget.ImageView",
+  "tcTariffChangePageTitle": "//*[contains(@text,'Tariff change')]",
+  "yourTargetUsageOverspent": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup/android.widget.TextView[3]",
+  "yourTargetGasIcon": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[4]/android.widget.ImageView",
+  "yourTargetElectricityIcon": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[5]/android.widget.ImageView",
+  "yourTargetGasText": "//*[contains(@text,'Gas')]",
+  "yourTargetElectricityText": "//*[contains(@text,'Electricity')]",
+  "yourTargetDaysLeftCard": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[4]",
+  "yourTargetDaysLeftText": "//*[contains(@text,'Days Left')]",
+  "yourTargetUnderspentText": "Underspent",
+  "yourTargetHistoryCardButtonTitle": "History card button title",
+  "yourTargetHistoryCardButtonContent": "History card button content",
+  "yourTargetHistoryButtonIcon": "//android.view.ViewGroup[@content-desc='History card button']/android.widget.ImageView[1]",
+  "yourTargetHistoryButtonArrow": "//android.view.ViewGroup[@content-desc='History card button']/android.widget.ImageView[2]",
+  "yourTargetInsightsCardButton": "Insights card button",
+  "yourTargetInsightsCardButtonTitle": "Insights card button title",
+  "yourTargetInsightsCardButtonContent": "Insights card button content",
+  "yourTargetInsightsButtonIcon": "//android.view.ViewGroup[@content-desc='Insights card button']/android.widget.ImageView[1]",
+  "setTargetTitle": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView",
+  "setTargetBackButton": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.Button/android.view.ViewGroup",
+  "setTargetSubTitle": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.TextView",
+  "setTargetScroll": "hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView",
+  "setTargetRecentUse": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView[1]",
+  "setTargetCurrentMonthText": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView[2]",
+  "setTargetPreviousMonthText": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView[4]",
+  "setTargetCurrentMonthValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView[3]",
+  "setTargetPreviousMonthValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView[5]",
+  "saveTargetButton": "Save Target",
+  "removeTargetButton": "Remove Target",
+  "yesRemoveTarget": "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.Button[2]",
+  "removeTargetConfirmationMessage": "//*[contains(@text,'Your current target was removed')]",
+  "doneRemoveTarget": "//*[contains(@text,'Done')]",
+  "historyTitle": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView",
+  "historyBackButton": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.Button/android.view.ViewGroup/android.widget.ImageView",
+  "insightsTitle": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView",
+  "insightsBackButton": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.Button/android.view.ViewGroup/android.widget.ImageView",
+  "historyWeekFocus":"week select button",
+  "historyMonthFocus":"month select button",
+  "historyYearFocus":"year select button",
+  "dueAmountPaymentAmountScreen" : "//android.view.ViewGroup[@content-desc='£']/../android.view.ViewGroup[contains(@content-desc,'£ ')]//android.widget.TextView",
+  "yourTargetInsightsButtonArrow": "//android.view.ViewGroup[@content-desc='Insights card button']/android.widget.ImageView[2]"
+}

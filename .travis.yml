@@ -1,0 +1,23 @@
+install:
+- npm install
+- npm install -g gulp-cli
+- pip install requests
+before_script:
+- mkdir -p reports
+- mkdir -p output
+- chmod +x ./scripts/upload_reports_to_confluence.py
+matrix:
+  include:
+  - script:
+    - gulp cucumber:android:local
+      wait
+    - gulp generate:report --osVersion 8 --platformName Android
+    - gulp automation:run:result
+    env:
+      os = android
+      version = 8
+after_script:
+   ./scripts/upload_reports_to_confluence.py; fi
+- rm -f reports/*.json
+
+
