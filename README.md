@@ -1,4 +1,4 @@
-# addc-automation-poc-tests
+# addc-automation-poc
 
 Steps to start:
 1. npm install
