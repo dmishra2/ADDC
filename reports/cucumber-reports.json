@@ -10,7 +10,7 @@
         "name": "@LoginPage"
       }
     ],
-    "uri": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/features_login_and_registration/login.feature",
+    "uri": "/Users/divmishr0/Documents/ADDC_POC/features/features_login_and_registration/login.feature",
     "elements": [
       {
         "keyword": "Scenario",
@@ -33,11 +33,11 @@
             "keyword": "Before",
             "result": {
               "status": "passed",
-              "duration": 13153
+              "duration": 16227
             },
             "hidden": true,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/support/hooks.js:14"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/support/hooks.js:14"
             }
           },
           {
@@ -46,11 +46,11 @@
             "name": "User should see the Homescreen Page",
             "result": {
               "status": "passed",
-              "duration": 7660
+              "duration": 7752
             },
             "line": 7,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:9"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:9"
             }
           },
           {
@@ -59,11 +59,11 @@
             "name": "User should see headingDescription as headingDesc on Homescreen Page",
             "result": {
               "status": "passed",
-              "duration": 164
+              "duration": 165
             },
             "line": 8,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -72,11 +72,11 @@
             "name": "User should see subHeading as subHeading on Homescreen Page",
             "result": {
               "status": "passed",
-              "duration": 158
+              "duration": 160
             },
             "line": 9,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -85,11 +85,11 @@
             "name": "User should see subHeadingDescription as subHeadingDesc on Homescreen Page",
             "result": {
               "status": "passed",
-              "duration": 151
+              "duration": 144
             },
             "line": 10,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -98,11 +98,11 @@
             "name": "User must see changeLanguageButton on Homescreen Page",
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1
             },
             "line": 11,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:185"
             }
           },
           {
@@ -111,11 +111,11 @@
             "name": "User should see changeLanguageLabel as changeLanguageLabel on Homescreen Page",
             "result": {
               "status": "passed",
-              "duration": 140
+              "duration": 159
             },
             "line": 12,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -124,11 +124,11 @@
             "name": "User must see existingUserButton on Homescreen Page",
             "result": {
               "status": "passed",
-              "duration": 92
+              "duration": 97
             },
             "line": 13,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:185"
             }
           },
           {
@@ -141,7 +141,7 @@
             },
             "line": 14,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:185"
             }
           },
           {
@@ -150,11 +150,11 @@
             "name": "User should be able to click existingUserButton on Homescreen Page",
             "result": {
               "status": "passed",
-              "duration": 5072
+              "duration": 5075
             },
             "line": 15,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:235"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:235"
             }
           },
           {
@@ -163,11 +163,11 @@
             "name": "User should see the Login Page",
             "result": {
               "status": "passed",
-              "duration": 321
+              "duration": 499
             },
             "line": 16,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:240"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:240"
             }
           },
           {
@@ -176,11 +176,11 @@
             "name": "User must see userNametxtbox on Login Page",
             "result": {
               "status": "passed",
-              "duration": 83
+              "duration": 119
             },
             "line": 17,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:185"
             }
           },
           {
@@ -189,11 +189,11 @@
             "name": "User must see passwordtxtbox on Login Page",
             "result": {
               "status": "passed",
-              "duration": 76
+              "duration": 129
             },
             "line": 18,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:185"
             }
           },
           {
@@ -202,11 +202,11 @@
             "name": "User must see loginButton on Login Page",
             "result": {
               "status": "passed",
-              "duration": 89
+              "duration": 126
             },
             "line": 19,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:185"
             }
           },
           {
@@ -215,11 +215,11 @@
             "name": "User should see forgotPasswordlnk as forgotPasswordlnktxt on Login Page",
             "result": {
               "status": "passed",
-              "duration": 2
+              "duration": 1
             },
             "line": 20,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -228,11 +228,11 @@
             "name": "User enters UserId as User Id",
             "result": {
               "status": "passed",
-              "duration": 2102
+              "duration": 2608
             },
             "line": 21,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:254"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:254"
             }
           },
           {
@@ -241,11 +241,11 @@
             "name": "User enters Password as Password",
             "result": {
               "status": "passed",
-              "duration": 2587
+              "duration": 2115
             },
             "line": 22,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:259"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:259"
             }
           },
           {
@@ -254,11 +254,11 @@
             "name": "User should be able to click on the Login button on Login Page",
             "result": {
               "status": "passed",
-              "duration": 5066
+              "duration": 5077
             },
             "line": 23,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:264"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:264"
             }
           },
           {
@@ -267,11 +267,11 @@
             "name": "User should see the My Account Page",
             "result": {
               "status": "passed",
-              "duration": 30191
+              "duration": 30425
             },
             "line": 24,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/my_Account.js:8"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/my_Account.js:8"
             }
           },
           {
@@ -280,11 +280,11 @@
             "name": "User should see payNowButton as payNowButtonText on My Account Page",
             "result": {
               "status": "passed",
-              "duration": 214
+              "duration": 348
             },
             "line": 25,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -293,11 +293,11 @@
             "name": "User must see outStandingBalanceSection on My Account Page",
             "result": {
               "status": "passed",
-              "duration": 104
+              "duration": 247
             },
             "line": 26,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:185"
             }
           },
           {
@@ -306,11 +306,11 @@
             "name": "User should see outStandingBalanceHeading as outStandingBalanceHeadingtxt on My Account Page",
             "result": {
               "status": "passed",
-              "duration": 202
+              "duration": 248
             },
             "line": 27,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -319,11 +319,11 @@
             "name": "User should see outStandingBalanceCurrency as outStandingBalanceCurrencytxt on My Account Page",
             "result": {
               "status": "passed",
-              "duration": 196
+              "duration": 249
             },
             "line": 28,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -332,11 +332,11 @@
             "name": "User should see outStandingBalanceValue as outStandingBalanceValuetxt on My Account Page",
             "result": {
               "status": "passed",
-              "duration": 153
+              "duration": 249
             },
             "line": 29,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -345,11 +345,11 @@
             "name": "User must see menuButton on My Account Page",
             "result": {
               "status": "passed",
-              "duration": 143
+              "duration": 149
             },
             "line": 30,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:185"
             }
           },
           {
@@ -358,11 +358,11 @@
             "name": "User should be able to click on the Menu button on My Account Page",
             "result": {
               "status": "passed",
-              "duration": 80
+              "duration": 99
             },
             "line": 31,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/my_Account.js:16"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/my_Account.js:16"
             }
           },
           {
@@ -371,11 +371,11 @@
             "name": "User should see the Menu",
             "result": {
               "status": "passed",
-              "duration": 2179
+              "duration": 2297
             },
             "line": 32,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_menu/menu_items.js:8"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_menu/menu_items.js:8"
             }
           },
           {
@@ -384,11 +384,11 @@
             "name": "User should see myProfileMenuButton as myProfileMenuButtontxt on Menu Screen",
             "result": {
               "status": "passed",
-              "duration": 2973
+              "duration": 2910
             },
             "line": 33,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -397,11 +397,11 @@
             "name": "User should be able to click on the My Profile Menu button on the Menu",
             "result": {
               "status": "passed",
-              "duration": 1245
+              "duration": 1339
             },
             "line": 34,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_menu/menu_items.js:16"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_menu/menu_items.js:16"
             }
           },
           {
@@ -410,11 +410,11 @@
             "name": "User should see the My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 20198
+              "duration": 20298
             },
             "line": 35,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/my_Profile.js:8"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/my_Profile.js:8"
             }
           },
           {
@@ -423,11 +423,11 @@
             "name": "User should see editButton as editButtontxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 198
+              "duration": 349
             },
             "line": 36,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -436,11 +436,11 @@
             "name": "User should see customerIdHeader as customerIdHeadertxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 166
+              "duration": 298
             },
             "line": 37,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -449,11 +449,11 @@
             "name": "User should see myProfileDesc as myProfileDesctxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 155
+              "duration": 249
             },
             "line": 38,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -462,11 +462,11 @@
             "name": "User should see fullNamelbl as fullNamelbltxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 175
+              "duration": 250
             },
             "line": 39,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -475,11 +475,11 @@
             "name": "User should see fullNameValue as fullNameValuetxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 176
+              "duration": 247
             },
             "line": 40,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -488,11 +488,11 @@
             "name": "User should see customerIdlbl as customerIdlbltxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 200
+              "duration": 299
             },
             "line": 41,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -501,11 +501,11 @@
             "name": "User should see customerIdValue as customerIdValuetxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 188
+              "duration": 249
             },
             "line": 42,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -514,11 +514,11 @@
             "name": "User should see userNamelbl as userNamelbltxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 158
+              "duration": 302
             },
             "line": 43,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -527,11 +527,11 @@
             "name": "User should see userNameValue as UserId on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 173
+              "duration": 296
             },
             "line": 44,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -540,11 +540,11 @@
             "name": "User should see personalDetailslbl as personalDetailslbltxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 170
+              "duration": 248
             },
             "line": 45,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -553,11 +553,11 @@
             "name": "User should see userEmaillbl as userEmaillbltxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 148
+              "duration": 248
             },
             "line": 46,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -566,11 +566,11 @@
             "name": "User should see userEmailValue as userEmailValuetxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 145
+              "duration": 299
             },
             "line": 47,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -579,11 +579,11 @@
             "name": "User should see phoneNumberlbl as phoneNumberlbltxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 157
+              "duration": 250
             },
             "line": 48,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -592,11 +592,11 @@
             "name": "User should see phoneNumberlblDesc as phoneNumberlblDesctxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 196
+              "duration": 298
             },
             "line": 49,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -605,11 +605,11 @@
             "name": "User should see phoneNumberValue as phoneNumberValuetxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 193
+              "duration": 250
             },
             "line": 50,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -622,7 +622,7 @@
             },
             "line": 51,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:185"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:185"
             }
           },
           {
@@ -631,11 +631,11 @@
             "name": "User should see preferredLanglbl as preferredLanglbltxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 149
+              "duration": 247
             },
             "line": 52,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -644,11 +644,11 @@
             "name": "User should see preferredLangValue as preferredLangValuetxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 149
+              "duration": 249
             },
             "line": 53,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -657,11 +657,11 @@
             "name": "User should see changePasswordButton as changePasswordButtontxt on My Profile Page",
             "result": {
               "status": "passed",
-              "duration": 156
+              "duration": 249
             },
             "line": 54,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/step_definitions/steps_login_and_registration/login_registration.js:18"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/step_definitions/steps_login_and_registration/login_registration.js:18"
             }
           },
           {
@@ -669,11 +669,11 @@
             "keyword": "After",
             "result": {
               "status": "passed",
-              "duration": 659
+              "duration": 760
             },
             "hidden": true,
             "match": {
-              "location": "/Users/divmishr0/Documents/ADDC/addc-automation-tests/features/support/hooks.js:26"
+              "location": "/Users/divmishr0/Documents/ADDC_POC/features/support/hooks.js:26"
             }
           }
         ]
