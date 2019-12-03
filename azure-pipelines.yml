@@ -1,7 +1,7 @@
 steps:
-- npm install
-- npm install -g gulp-cli
-- pip install requests
+- script : npm install
+- script : npm install -g gulp-cli
+- script : pip install requests
 before_script:
 - mkdir -p reports
 - mkdir -p output
