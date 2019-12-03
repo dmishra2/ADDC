@@ -1,5 +1,5 @@
-import {defineSupportCode} from 'cucumber';
-import reporter from 'cucumber-html-reporter';
+import {defineSupportCode} from 'cucumber'
+import reporter from 'cucumber-html-reporter'
 
 const d = Date.now()
 

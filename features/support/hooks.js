@@ -25,7 +25,7 @@ defineSupportCode(({ After, Before }) => {
 
   After(async function (scenario, ...data) {
     let world = this;
-    if (this.parameters.testobject && scenario.isFailed()) {
+    /*if (this.parameters.testobject && scenario.isFailed()) {
       await this.driver.takeScreenshot().then(async function (data) {
         return await world.attach(data, 'image/png');
       });
@@ -33,8 +33,8 @@ defineSupportCode(({ After, Before }) => {
     } else if (scenario.isFailed()) {
       await this.driver.saveScreenshot().then(async function (buffer) {
         await world.attach(buffer, 'image/png');
-      });
-    }
+      })
+    }*/
     await this.driver.quit();
     gutil.log('Closed WebDriver Instance')
   });
