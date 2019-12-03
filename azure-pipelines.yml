@@ -1,4 +1,4 @@
-install:
+steps:
 - npm install
 - npm install -g gulp-cli
 - pip install requests
